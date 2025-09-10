@@ -1,0 +1,44 @@
+ AWS S3 Static Website Hosting 🌍  
+
+This project is about hosting a static website on AWS S3 (Free Tier) 
+
+Static websites are made up of **HTML, CSS, JavaScript, and media files** — no backend.  
+Examples: portfolio, resume, blog, or simple business site.  
+
+---
+
+ 📌 What I did step by step  
+
+ 1. Created an S3 bucket  
+- Chose a unique name  
+- Selected my region (`ap-south-1`)  
+- Turned off Block all public access
+- (Optional) enabled versioning  
+
+- web hosting 
+-firstly i downloaded the free template.
+
+ 2. Uploaded files 
+- Added my `index.html`,and other media and folder. 
+
+ 3. Enabled static website hosting  
+- Went to Properties → Static website hosting
+- Set `index.html` as the main page  
+
+ 4. Set permissions  
+- Wrote a bucket policy for public read access  
+- If not working → made objects public using ACLs  
+
+5. Got the website link  
+- Used the S3 website endpoint
+- Opened it in browser → and my site was live 
+
+---
+
+ 📂 What’s inside this repo  
+- All file teplate had that i downloaded
+
+
+
+ 🔗 Live Demo ;http://vaibhzz2828.s3-website-ap-southeast-2.amazonaws.com/index.html
+  
